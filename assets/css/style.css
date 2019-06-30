@@ -203,3 +203,24 @@ footer h5 {
     padding-top: 30px;
     padding-bottom: 0;
 }
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 980px) {
+    header {
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+}
