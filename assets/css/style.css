@@ -209,7 +209,7 @@ footer h5 {
 
 @media only screen and (max-width: 980px) {
     header {
-        position: static;
+        position:;
     }
 
     .clearfix {
@@ -223,7 +223,7 @@ footer h5 {
 
 @media only screen and (max-width: 768px) {
     header {
-        position: static;
+        position:;
     }
 
     .clearfix {
@@ -237,7 +237,7 @@ footer h5 {
 
 @media only screen and (max-width: 640px) {
     header {
-        position: static;
+        position:;
     }
 
     .clearfix {
@@ -245,6 +245,6 @@ footer h5 {
     }
 
     footer {
-        
+
     }
 }
