@@ -211,16 +211,40 @@ footer h5 {
     header {
         position: static;
     }
+
+    .clearfix {
+
+    }
+
+    footer {
+
+    }
 }
 
 @media only screen and (max-width: 768px) {
     header {
         position: static;
     }
+
+    .clearfix {
+
+    }
+
+    footer {
+
+    }
 }
 
 @media only screen and (max-width: 640px) {
     header {
         position: static;
+    }
+
+    .clearfix {
+
+    }
+
+    footer {
+        
     }
 }
