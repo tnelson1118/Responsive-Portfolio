@@ -155,11 +155,11 @@ p {
 }
 
 .textBox {
-    width: 960px;
+    width: 100%;
 }
 
 #message {
-    width: 960px;
+    width: 100%;
     height: 250px;
 }
 
@@ -208,43 +208,71 @@ footer h5 {
 /* Media Queries */
 
 @media only screen and (max-width: 980px) {
-    header {
-        
+
+    #bioImage {
+        width: 30%;
     }
 
     .clearfix {
+        width: 45%;
+        margin-left: 13%;
+        margin-right: 0;
 
     }
 
     footer {
-
+        position: sticky;
+        bottom: 0;
+        padding: 5px;
     }
+
 }
 
 @media only screen and (max-width: 768px) {
-    header {
-        
+
+    header h1 {
+        margin-left: 2%;
+    }
+
+    header #grid {
+        margin-right: 2%;
     }
 
     .clearfix {
-
+        width: 90%;
+        margin-left: 2%;
     }
 
-    footer {
-
-    }
 }
 
 @media only screen and (max-width: 640px) {
+
     header {
-        
+        position: static;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    header h1 {
+        float: none;
+        background-color: #4aaaa5;
+        color: white;
+        text-align: center;
+        font-size: 2em;
+        margin: 0;
+
+    }
+
+    header #grid {
+        float: none;
+        background-color: white;
+        text-align: center;
     }
 
     .clearfix {
+        clear: none;
 
     }
 
-    footer {
-
-    }
 }
