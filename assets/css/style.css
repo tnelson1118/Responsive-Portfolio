@@ -257,7 +257,6 @@ footer h5 {
     header h1 {
         float: none;
         background-color: #4aaaa5;
-        color: white;
         text-align: center;
         font-size: 2em;
         margin: 0;
@@ -266,13 +265,17 @@ footer h5 {
 
     header #grid {
         float: none;
+        display: block;
         background-color: white;
         text-align: center;
+        margin: 0;
+        padding: 2% 2%;
+        border-bottom: solid 1px #dddddd;
     }
 
     .clearfix {
         clear: none;
-
+        margin-top: 10%;
     }
 
 }
